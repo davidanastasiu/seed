@@ -15,9 +15,13 @@ Download the datasets from [here](https://clp.engr.scu.edu/static/datasets/seed_
 You should now have a `data_provider/datasets` directory containing 4 stream sensor (file names end with _S_fixed.csv) and 4 rain sensor (file names end with _R_fixed.csv) datasets.
 
 Use parameter '--val_size' to set the number of randomly sampled validation points which will be used in the training process. 
+
 Use parameter '--train_volume' to set the number of randomly sampled validation points which will be used in the training process. 
+
 Use parameter '--sub_mean_threshold' to set the threshold which will be used in the sample-wise oversampling process. 
+
 Use parameter '--times' to set the step size which will be used in the sample-wise oversampling process. 
+
 Refer to the annotations in 'options.py' for other parameters setting.
 
 
