@@ -3,8 +3,8 @@
 Experiments were executed in an Anaconda 3 environment with Python 3.8.3. The following will create an Anaconda environment and install the requisite packages for the project.
 
 ```bash
-conda create --name necplus python=3.8.3
-conda activate necplus
+conda create --name seed python=3.8.3
+conda activate seed
 conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=10.2 -c pytorch
 python -m pip install -r requirements.txt
 ```
