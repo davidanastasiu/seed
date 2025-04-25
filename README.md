@@ -1,3 +1,19 @@
+## SEED
+
+We present `SEED: An Effective Model for Highly-Skewed Streamflow Time Series Data Forecasting' to considerably enhance streamflow prediction using univariate time series data from streamflow sensors. If you make use of our code or data, please cite our papers below.
+
+
+```bibtex
+@inproceedings{li2023seed,
+  title={Seed: An effective model for highly-skewed streamflow time series data forecasting},
+  author={Li, Yanhong and Xu, Jack and Anastasiu, David C},
+  booktitle={2023 IEEE International Conference on Big Data (BigData)},
+  pages={728--737},
+  year={2023},
+  organization={IEEE}
+}
+```
+
 ## Preliminaries
 
 Experiments were executed in an Anaconda 3 environment with Python 3.8.3. The following will create an Anaconda environment and install the requisite packages for the project.
